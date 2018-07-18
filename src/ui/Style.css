@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2-feb-2018, 23:53:04
+    Author     : tom lamotte
+*/
+.root{
+   -fx-background-color: linear-gradient(to right,yellow,fuchsia);
+   -fx-border-color: coral;
+   -fx-border-width:2px;
+}
+.button:hover{
+    -fx-background-color:darkorange;
+    -fx-background-inset: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 5px, 5px, 5px, 5px;
+    -fx-font-family: "Helvetia";
+    -fx-font-size: 15px;
+}
+.table-view{
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:odd{
+    -fx-background-color:yellow;
+    -fx-background-insets:2 2 2 2;
+    -fx-padding: 0em;
+}
+.table-column{
+    -fx-alignment: CENTER;
+}
+
+.date-picker-popup >*>.today {
+    -fx-font-weight: 900;
+}
+.date-picker-popup >*>.day-cell{
+    -fx-text-fill:black;
+}
+.date-picker{
+-fx-control-inner-background: lightgreen;
+}
+
+.table-view .column-header {
+    -fx-background-color: yellow;
+    -fx-border-color: blue;
+    -fx-border-width:2;
+}
+
+.text-field {
+ -fx-text-fill:indigo;
+}
+#BuLidToevoegen{  
+    -fx-text-fill: #006464;
+    -fx-background-color: #DFB951;
+    -fx-border-radius: 10;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+}
+#BuLidWijzigen{
+    -fx-text-fill: #006464;
+    -fx-background-color: #DFB951;
+    -fx-border-radius: 10;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+ }
+ 
+ #BuLidUitschrijven{   
+    -fx-text-fill: #006464;
+    -fx-background-color: #DFB951;
+    -fx-border-radius: 10;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+}
+
+.table-view:focused {
+  -fx-background-color: blue ,-fx-box-border,-fx-control-inner-background;
+  }
+.table-row-cell:focused .text {
+    -fx-font-weight: bold;
+ }
+
+
+
+
+ 
+
